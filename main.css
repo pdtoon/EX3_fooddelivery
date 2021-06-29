@@ -1,0 +1,102 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+
+  body {
+
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+
+  .inputdata {
+    width: 26rem;
+    margin: 3rem auto;
+    background-color: #a0e3e8;
+    border-radius: 0.625rem;
+    box-shadow: 5px 5px 30px #888888;
+    padding: 0 20px;
+  }
+  
+    h1 {
+      font-size: 2rem;
+      padding: 0.5rem;
+      color: #e06b47;
+      text-shadow: 2px 1px 5px #888888;
+      text-align: center;
+      background-color: #e8e4a0;
+      border-top-left-radius: 0.625rem;
+      border-top-right-radius: 0.625rem;
+      margin: 0 -20px;
+    
+    }
+    
+    h2 {
+        margin: 0.5rem 0;
+        font-size: 1.25rem;
+        color: #f17339;
+        }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      margin: 0.25rem 0;
+      font-size: 1rem;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 0.2rem;
+    }
+
+    ::placeholder {
+        color: lightgray;
+      }
+
+    p {
+        margin: 0.25rem 0;
+        font-size: 1.1rem;
+        color: #1523e2;
+      }
+    
+    .listfood {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        margin-bottom: 0.75rem;
+        color: #0f0e0e;
+      }
+
+    textarea {
+        width: 100%;
+        margin: 0.25rem 0;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.2rem;
+        resize: vertical;
+      }
+
+    .buttonsubmit {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 0.75rem;
+      }
+
+    input[type="submit"] {
+          font-size: 1.2rem;
+          padding: 0.25rem;
+          border: none;
+          border-radius: 0.25rem;
+          background-color: #e8e4a0;
+          transition: 0.5s;
+        }
+
+
+    
+  
